@@ -12,3 +12,6 @@ Example complete : https://github.com/yanniboi/RogueCI
   
 CodeCoverage : https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html  
 CodeCoverage & TestRunner : https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/CoverageTestRunner.html  
+  
+Itch.io : https://bitbra.in/2019/02/18/automatically-publish-games-to-itchio.html  
+Itch.io & Actions : https://github.com/marketplace/actions/itch-io-publish  
