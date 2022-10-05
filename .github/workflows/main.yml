@@ -30,6 +30,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: WebGL
+          customImage: 'unityci/editor:2022.1.15f1-base-1.0.1'
 
       # Output
       - uses: actions/upload-artifact@v2
