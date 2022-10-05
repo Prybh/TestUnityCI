@@ -9,3 +9,6 @@ unity-actions : https://github.com/game-ci/unity-actions
 unity-license-activate : https://github.com/game-ci/unity-license-activate  
 Example follow guide : https://github.com/yanniboi/RogueCI/wiki  
 Example complete : https://github.com/yanniboi/RogueCI 
+  
+CodeCoverage : https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html  
+CodeCoverage & TestRunner : https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/CoverageTestRunner.html  
