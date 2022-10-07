@@ -8,6 +8,8 @@
 - Add [.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore)
 - Add [.gitattributes](https://gist.github.com/Srfigie/77b5c15bc5eb61733a74d34d10b3ed87)
 - Add [.github/workflows/main.yml](https://github.com/Prybh/TestUnityCI/blob/main/.github/workflows/main.yml)
+- Check that your Unity version is supported on this [list](https://game.ci/docs/docker/versions)
+- If not, specify a `unityVersion` in the Tests and Build phase
 - Submit
 
 ### CI Variables
@@ -27,7 +29,8 @@
 Git LFS with Unity : https://adamwreed93.medium.com/how-to-set-up-git-lfs-into-your-unity-project-9fd276305fe7  
 .gitattributes for Unity : https://gist.github.com/Srfigie/77b5c15bc5eb61733a74d34d10b3ed87  
   
-GameCI docs : https://game.ci/docs/github/getting-started  
+GameCI docs : https://game.ci/docs/github/getting-started 
+Versions : https://game.ci/docs/docker/versions
 unity-actions : https://github.com/game-ci/unity-actions  
 unity-license-activate : https://github.com/game-ci/unity-license-activate  
 Example follow guide : https://github.com/yanniboi/RogueCI/wiki  
