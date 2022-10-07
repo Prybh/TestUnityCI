@@ -32,7 +32,7 @@ jobs:
         with:
           name: ${{ steps.getManualLicenseFile.outputs.filePath }}
           path: ${{ steps.getManualLicenseFile.outputs.filePath }}
-
+            
   buildWebGL:
     needs: [checklicense]
     if: needs.checklicense.outputs.is_unity_license_set == 'true'
@@ -71,13 +71,13 @@ jobs:
             Library-
 
       # Test
-     - name: Run tests
-       uses: game-ci/unity-test-runner@v2
-       env:
-         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-       with:
-         githubToken: ${{ secrets.GITHUB_TOKEN }}
-         unityVersion: '2022.1.15f1'
+      - name: Run tests
+        uses: game-ci/unity-test-runner@v2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          unityVersion: '2022.1.15f1'
 
       # Build
       - name: Build project
