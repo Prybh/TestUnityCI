@@ -7,7 +7,7 @@
 - `git lfs install` to setup Git LFS
 - Add [.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore)
 - Add [.gitattributes](https://gist.github.com/Srfigie/77b5c15bc5eb61733a74d34d10b3ed87)
-- Add [main.yml](https://github.com/Prybh/TestUnityCI/blob/main/.github/workflows/main.yml)
+- Add [.github/workflows/main.yml](https://github.com/Prybh/TestUnityCI/blob/main/.github/workflows/main.yml)
 - Submit
 
 ### CI Variables
