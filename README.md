@@ -1,4 +1,6 @@
 # TestUnityCI
+
+![Status](https://github.com/Prybh/TestUnityCI/actions/workflows/main.yml/badge.svg)
   
 ## Quick setup guide
 
