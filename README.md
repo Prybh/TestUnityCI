@@ -14,7 +14,7 @@
 - Go in Actions, in the last build and download the Unity_v20xx.x.ulf
 - Go in Settings/Secrets/Actions
 - Copy all the file content to a new secret UNITY_LICENSE
-- Add a new secrets UNITY_EMAIL and UNITY_PASSWORD for your Unity account
+- Add new secrets UNITY_EMAIL and UNITY_PASSWORD for your Unity account
 
 ### Deploy
 - Disable compression for WebGL builds
