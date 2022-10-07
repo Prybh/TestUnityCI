@@ -18,7 +18,6 @@
 
 ### Deploy
 - Disable compression for WebGL builds
-- Submit first commit
 - Go in Settings/Pages and select the gh-pages branch for the deploy
 - Submit
   
