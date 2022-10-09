@@ -10,6 +10,7 @@
 - Add [.gitignore](https://github.com/github/gitignore/blob/main/Unity.gitignore)
 - Add [.gitattributes](https://gist.github.com/Srfigie/77b5c15bc5eb61733a74d34d10b3ed87)
 - Add [.github/workflows/main.yml](https://github.com/Prybh/TestUnityCI/blob/main/.github/workflows/main.yml)
+- Comment/uncomment the Tests part depending on if you are using Test Runner
 - Check that your Unity version is supported on this [list](https://game.ci/docs/docker/versions)
 - If not, specify a `unityVersion` in the Tests and Build phase
 - Submit
